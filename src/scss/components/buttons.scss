@@ -1,0 +1,26 @@
+.balance__buttons {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  height: 100px;
+  width: 45%;
+  font-size: 32px;
+  border-radius: 10px;
+  border: solid 1px #383838;
+  font-weight: bold;
+
+  &_add-purchase {
+    float: left;
+    background: #D43E2A;
+    text-shadow: 1px 1px 21px #640301;
+  }
+
+  &_add-income {
+    float: right;
+    background: #56c21c;
+    text-shadow: 1px 1px 21px #0E5B10;
+  }
+}
